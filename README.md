@@ -59,8 +59,11 @@
 
 1. 安装typesctipt 和 typescript 的loader
 
-2. webpack.config 添加loader 配置
+```
+npm install -D typescript ts-loader
 
 ```
-npm install -D 
-```
+
+2. webpack.config 添加loader 配置
+
+3. 添加tsconfig 配置项
